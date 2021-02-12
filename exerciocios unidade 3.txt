@@ -1,0 +1,76 @@
+Gabarito: 
+1 - B; 
+2 - C; 
+3 - E; 
+4 - A; 
+5 - E; 
+6 - E; 
+7 - E; 
+8 - E; 
+9 - A;
+10 - D 
+
+1.[ESAF - 2008 CGU] Na linguagem de
+programação Java, pode-se definir a visibilidade
+dos métodos e atributos. Com relação a essa
+característica, é correto afirmar que:
+
+R:B
+
+
+2.[ESAF - 2009 ANA] Em Java, para que um
+método de uma superclasse não seja sobrescrito em
+suas subclasses, aplica-se o modificador 
+
+R: C
+
+
+3.[ESAF - 2008 CGU] Com relação à linguagem de
+programação Java, é correto afirmar que 
+
+R: E
+
+
+4.[ESAF - 2008 - Prefeitura de Natal] Analise as
+seguintes afirmações relacionadas a conceitos de
+programação Orientada a Objetos e da linguagem de
+programação Java: 
+
+R: A
+
+5.[FCC - 2014 TRT/AM] Considere o código-fonte
+a seguir: 
+
+R: E
+
+6.[FCC - 2012 MPE/AP] Analise o código das
+classes a seguir presentes em um mesmo pacote de
+um projeto Java: 
+
+R: E
+
+7.[FCC - 2010 TRT/SE] Considere o código JAVA
+abaixo: 
+
+R: E
+
+8.[ESAF - 2009 ANA] Se, na superclasse, um
+método é declarado protected, o(s) modificador(es)
+aplicável(is) na sobrescrita do método é(são) 
+
+R: E
+
+9.[INSTITUTO CIDADES - 2009 UNIFESP]
+Acerca dos conhecimentos sobre Java, marque a
+alternativa INCORRETA: 
+
+R: A
+
+10.[FCC 2012 TRE/CE] Com relação a herança na
+programação orientada a objetos com Java, é
+INCORRETO afirmar: 
+
+R: D
+
+
+

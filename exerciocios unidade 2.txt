@@ -1,0 +1,51 @@
+1.[ESAF - 2012 - Receita Federal] Em programação
+Java, o comando while
+
+R:B
+
+2.[ESAF - 2012 - CGU] Na linguagem Java, o
+comando continue tem a função de:
+
+R: E
+
+
+3.[ESAF - 2012 - CGU] Os tipos primitivos da
+linguagem Java são 
+
+R: B
+
+4.[ESAF - 2012 - CGU] Em linguagem Java
+
+R: C
+
+
+5.[ESAF - 2010 CVM] Na linguagem Java
+
+R: E
+
+6.[ESAF - 2012 CGU] O comando break tem a
+função de 
+
+R: A
+
+7.[FCC - 2012 TST] Considere o programa abaixo
+escrito na linguagem Java: 
+
+R: E
+
+8.[FCC - 2012 TCE/AM] Considere o código Java
+a seguir: 
+
+R: D
+
+9.[FCC - 2007 MPU] Analise os seguintes valores,
+variáveis e operações usando expressões Java: 
+
+R: C
+
+10.[FCC - 2007 MPU] Quanto às variáveis Java,
+um inteiro de 64 bits em notação de complemento de
+dois que pode assumir valores entre
+
+R: A
+
