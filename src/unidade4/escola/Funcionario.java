@@ -1,6 +1,6 @@
 package unidade4.escola;
 
-public abstract class Funcionario {
+public abstract class Funcionario { //clsses abstratas nao podem ser instanciadas.
 
 	public static void main(String[] args) {
 
