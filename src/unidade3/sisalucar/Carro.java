@@ -33,7 +33,7 @@ public class Carro {
 
 	public static void main(String[] args) {
 
-		Carro carro1 = new Carro(1, "ABC-2001", "Volkswagem", "Gol", "Azul", 2013, 99.90f, Revendedor.EMANUELVEICULOS);
+		//Carro carro1 = new Carro(1, "ABC-2001", "Volkswagem", "Gol", "Azul", 2013, 99.90f, Revendedor.EMANUELVEICULOS);
 
 	}
 }

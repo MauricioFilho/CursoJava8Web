@@ -18,6 +18,7 @@ public abstract class Funcionario { //clsses abstratas nao podem ser instanciada
 		
 		//Interface recebendo referencia de um objeto que implementa a interface.
 		
+		/*
 		Professor prof = new Professor();
 		
 		Autenticavel aut = prof;
@@ -25,7 +26,7 @@ public abstract class Funcionario { //clsses abstratas nao podem ser instanciada
 		Cidadao cid = prof;
 		
 		Contribuinte cont = prof;
-
+		*/
 	}
 
 	public abstract void getBonificacao();

@@ -1,6 +1,5 @@
 package unidade4.casting;
 
-import unidade4.casting.Main.Beagle;
 
 public class Main {
 
@@ -27,7 +26,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-
+		/*
 		// Casting tipo primitivo
 		char a = 'a';
 		int b = 'b';
@@ -36,7 +35,7 @@ public class Main {
 		int d = (int) 5.1987;
 		float e = (float) 5.0;
 		char g = (byte) 110.5;
-
+		*/
 	}
 
 }

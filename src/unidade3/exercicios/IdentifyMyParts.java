@@ -2,7 +2,7 @@ package unidade3.exercicios;
 
 public class IdentifyMyParts {
 	
-	public static int x = 7;
+	public int x = 7;
 	public int y = 3;
 	
 	public static void main(String[] args) {

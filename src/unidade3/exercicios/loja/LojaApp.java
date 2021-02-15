@@ -6,10 +6,10 @@ public class LojaApp {
 
 	public static void main(String[] args) {
 		
-		Cliente cl1 = new Cliente(1, "Mauricio", "Rua Silvestre Scotti, 522");
+		//Cliente cl1 = new Cliente(1, "Mauricio", "Rua Silvestre Scotti, 522");
 		Cliente cl2 = new Cliente(2, "Priscila", "Rua João Pessoa, 278");
 		
-		Produto p1 = new Produto(1, "Computador", new BigDecimal(1250.00));
+		//Produto p1 = new Produto(1, "Computador", new BigDecimal(1250.00));
 		Produto p2 = new Produto(2, "Cafeteira", new BigDecimal(500.00));
 		
 		gerarPedidos(cl2, p2, "12/02/2021");

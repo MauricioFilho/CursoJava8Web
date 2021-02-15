@@ -26,10 +26,10 @@ public class SisalucarApp {
 		car1.fabricante = "Volkswagem";
 
 		totalCarros += 1;
-
+		/*
 		Cliente cl2 = new Cliente();
 		Carro car2 = new Carro();
-
+		*/
 		SisalucarApp sisalucar = new SisalucarApp();
 		sisalucar.realizarLocacao(car1.idCarro, cl1.idCliente, car1.valorDiaria);
 		gerarRelatorioLocacao(car1, LocalDate.now(), LocalDate.now().plusDays(5));
@@ -50,7 +50,7 @@ public class SisalucarApp {
 
 	public static void gerarRelatorioLocacao(Carro carro, LocalDate... datas) { // exemplo varArgs
 
-		float totalFaturado = carro.valorDiaria;
+		//float totalFaturado = carro.valorDiaria;
 
 	}
 }
