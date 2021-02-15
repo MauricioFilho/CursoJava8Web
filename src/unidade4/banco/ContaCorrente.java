@@ -1,4 +1,4 @@
-package unidade4;
+package unidade4.banco;
 
 public class ContaCorrente extends Conta {
 	

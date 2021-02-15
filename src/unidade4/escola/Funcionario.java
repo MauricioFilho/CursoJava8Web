@@ -1,10 +1,8 @@
 package unidade4.escola;
 
-public class Funcionario {
+public abstract class Funcionario {
 
 	public static void main(String[] args) {
-
-		Funcionario jose = new Funcionario(); // Instanciação normal
 
 		Funcionario antonio = new Professor(); // Polimorfismo
 
@@ -20,9 +18,11 @@ public class Funcionario {
 
 	}
 
+	public abstract void getBonificacao();
+
 	public void verificarTipoFuncionario(Funcionario funcionario) {
 
-		if (funcionario instanceof Diretor)  {
+		if (funcionario instanceof Diretor) {
 
 			System.out.println("Diretor");
 
