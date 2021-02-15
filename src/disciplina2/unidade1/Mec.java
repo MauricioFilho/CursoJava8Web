@@ -1,7 +1,7 @@
 package disciplina2.unidade1;
 
 import disciplina2.unidade1.br.abctreiamentos.Universidade;
-import static disciplina2.unidade1.br.abctreiamentos.Universidade.*;
+import static disciplina2.unidade1.br.abctreiamentos.Universidade.*; //importação statica.
 public class Mec {
 	
 	void avaliarEnsino() {
