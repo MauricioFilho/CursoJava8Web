@@ -1,6 +1,6 @@
 package unidade4.sisalucar;
 
-public class Carro {
+public class Carro extends Veiculo {
 
 	private long idCarro;
 	private String placa;
@@ -10,7 +10,7 @@ public class Carro {
 	private int ano;
 	private float valorDiaria;
 	private Revendedor revendedor;
-	
+
 	public Carro() {
 
 	}
@@ -26,9 +26,8 @@ public class Carro {
 		this.ano = ano;
 		this.valorDiaria = valorDiaria;
 		this.revendedor = revendedor;
-		
-	}
 
+	}
 
 	public long getIdCarro() {
 		return idCarro;
@@ -94,4 +93,27 @@ public class Carro {
 		this.revendedor = revendedor;
 	}
 
+	public void abastecer(int quantidadeLitros) {
+		
+		System.out.println("");
+	}
+
+	public void fechaPorta() {
+	}
+
+	public void abrePorta() {
+	}
+
+	public static void main(String[] args) {
+
+		Carro carro1 = new Carro();
+		// Metodos acessados por herança de veículo
+		carro1.acelera();
+		carro1.freia();
+		carro1.getPassageiros();
+		carro1.getVelocidade();
+
+		// Atributos acessados da superclass (apenas se forem protected)
+		carro1.autonomia = 0;
+	}
 }

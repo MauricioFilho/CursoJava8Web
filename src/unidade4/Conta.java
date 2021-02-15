@@ -4,9 +4,9 @@ public class Conta {
 
 	// attributes
 	private int numero;
-	private double saldo;
+	protected double saldo;
 	private double limite;
-	private String nome;
+	private Cliente[] cliente; 
 
 	// Constructors
 
@@ -14,12 +14,12 @@ public class Conta {
 
 	}
 
-	public Conta(int numero, double saldo, double limite, String nome) {
+	public Conta(int numero, double saldo, double limite, Cliente[] cliente) {
 		super();
 		this.numero = numero;
 		this.saldo = saldo;
 		this.limite = limite;
-		this.nome = nome;
+		this.setCliente(cliente);
 	}
 
 	public int getNumero() {
@@ -47,14 +47,15 @@ public class Conta {
 	public void setLimite(double limite) {
 		this.limite = limite;
 	}
-
-	public String getNome() {
-		return nome;
+	
+	public Cliente[] getCliente() {
+		return cliente;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setCliente(Cliente[] cliente) {
+		this.cliente = cliente;
 	}
+	
 
 	// Methods
 
@@ -76,7 +77,13 @@ public class Conta {
 		}
 
 	}
-
+	
+	public void atualiza(double taxa) {
+		
+		this.saldo += this.saldo * taxa;
+		
+	}
+	
 	public void deposita(double valor) {
 
 		this.saldo += valor;
@@ -100,28 +107,24 @@ public class Conta {
 		}
 	
 	}
+	
+	public void taxaPercentual() {
+		
+		
+		
+	}
 
 	// Main Method
 
 	public static void main(String[] args) {
 
-		Conta conta1 = new Conta();
+		Conta conta = new Conta();
 		
-		conta1.setNome("Mauricio Goulart");
-		conta1.setLimite(200);
-		conta1.setSaldo(50);
-		conta1.setNumero(123);
-
-		Conta conta2 = new Conta();
+		conta.cliente = new Cliente[5]; //de 1 até 5 clientes
 		
-		conta2.setNome("Priscila Costa");
-		conta2.setLimite(350);
-		conta2.setSaldo(230);
-		conta2.setNumero(321);
-		
-		System.out.println("Saldo conta 1: " + conta1.getSaldo());
-		System.out.println("Saldo conta 2: " + conta2.getSaldo());
-
+	
 	}
+
+	
 
 }
