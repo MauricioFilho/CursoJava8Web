@@ -15,6 +15,16 @@ public abstract class Funcionario { //clsses abstratas nao podem ser instanciada
 		antonio.verificarTipoFuncionario(antonio);
 
 		pedro.verificarTipoFuncionario(andrea);
+		
+		//Interface recebendo referencia de um objeto que implementa a interface.
+		
+		Professor prof = new Professor();
+		
+		Autenticavel aut = prof;
+		
+		Cidadao cid = prof;
+		
+		Contribuinte cont = prof;
 
 	}
 

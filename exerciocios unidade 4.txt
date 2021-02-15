@@ -1,0 +1,82 @@
+1 - [FCC - 2012 - TRE/CE] Sobre orientação a objetos,
+é INCORRETO afirmar: 
+
+(d)polimorfismo é o princípio pelo qual duas ou mais
+classes derivadas de uma mesma superclasse podem
+invocar métodos que têm a mesma assinatura e mesmo
+comportamento 
+
+
+2.[CESGRANRIO - 2012 - PETROBRÁS] Ao
+escrever o código da Classe PortaDeCofre em Java
+para que ela atenda a interface Porta, como um
+programador deve começar a declaração da classe? 
+
+(e)public class PortadeCofre implements Porta { 
+
+
+3.[FCC - 2012 - TCE/SP] Em um programa Java,
+considere a existência de uma variável do tipo long
+chamada cod contendo o valor 1234. Para passar o
+valor contido nessa variável para uma variável do
+tipo byte chamada codNovo, deve-se fazer casting.
+Para isso, utiliza-se a instrução: byte codNovo = 
+
+(d)(byte) cod;
+
+4.[FCC - 2011 - TRT/RS] Existem circunstâncias
+onde métodos específicos não devem ser
+implementados em uma classe, porém apenas
+fornecidas suas especificações. O emprego de um
+modificador em Java permite a declaração de um
+protótipo (método sem bloco de código), adiando sua
+implementação para subclasses. Trata-se do
+modificador 
+
+(c)abstract 
+
+5.[CESGRANRIO - 2010 PETROBRÁS] Ao tentar
+compilar e executar o código abaixo, o resultado será 
+
+(b)a correta compilação e execução do código, com a
+exibição na saída padrão da sequência ABAC 
+
+
+6.[CESGRANRIO - 2010 PETROBRÁS]
+Analisando o código abaixo, verifica-se que o
+programa 
+
+(b)compila e executa imprimindo na saída padrão C2 e
+C3 
+
+7.[CESGRANRIO - 2010 BNDES] Qual das
+afirmações a seguir faz uma apreciação correta a
+respeito da linguagem de programação Java? 
+
+(d)A construção de um método que pode levantar uma
+exceção, cuja instância é uma subclasse de
+java.lang.RuntimeException, não exige tratamento
+obrigatório por parte do programador dentro daquele
+método 
+
+
+8.[CESGRANRIO - 2008 PETROBRÁS] Com base
+no diagrama abaixo, analise os trechos de código
+Java a seguir. 
+
+(d)III e IV 
+
+
+9.[CESGRANRIO - 2008 CAPES] Em que porção
+da JVM (Java Virtual Machine) são armazenados
+objetos instanciados em um programa JAVA? 
+
+(a)Heap 
+
+10.[CESGRANRIO- 2006 DECEA] Em Java, a
+palavra-chave que implementa uma relação de
+herança de classes é:
+
+(e)extends 
+
+
