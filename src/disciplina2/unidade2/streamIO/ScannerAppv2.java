@@ -1,4 +1,4 @@
-package disciplina2.unidade2;
+package disciplina2.unidade2.streamIO;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

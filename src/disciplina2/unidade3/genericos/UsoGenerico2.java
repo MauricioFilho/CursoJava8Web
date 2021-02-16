@@ -9,7 +9,7 @@ public class UsoGenerico2 {
 		System.out.println(iob.getObj2());
 		System.out.println(iob.getObj1());
 		
-		iob.showType();
+		iob.showType(); 
 	}
 
 }

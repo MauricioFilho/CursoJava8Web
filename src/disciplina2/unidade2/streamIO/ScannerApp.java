@@ -1,4 +1,4 @@
-package disciplina2.unidade2;
+package disciplina2.unidade2.streamIO;
 
 import java.util.Formatter;
 import java.util.Scanner;

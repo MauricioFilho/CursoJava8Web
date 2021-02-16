@@ -1,4 +1,4 @@
-package disciplina2.unidade2;
+package disciplina2.unidade2.streamIO;
 
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
