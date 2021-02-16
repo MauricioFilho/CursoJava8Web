@@ -3,6 +3,12 @@ package disciplina2.unidade3.genericos;
 public class ExemploGenerics <T>  { //tipo generico
 	
 	T obj;
+	
+	
+	
+	public ExemploGenerics() {
+		super();
+	}
 
 	public ExemploGenerics(T obj) {
 		super();
