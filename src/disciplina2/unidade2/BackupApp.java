@@ -10,6 +10,7 @@ public class BackupApp {
 
 	public static void main(String[] args) throws Exception {
 		
+		/*
 		Path home = Paths.get("C:\\Users\\Desenvolvimento\\eclipse-workspace\\CursoJava8Web\\src\\disciplina2\\unidade2");
 		
 		String filtro = "*.java";
@@ -23,7 +24,8 @@ public class BackupApp {
 			
 			Files.copy(txt, backup, StandardCopyOption.REPLACE_EXISTING);
 		}
-
+		*/
+		
 	}
 
 }
